@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Btns</title>
+  </head>
+  <body>
+    <section id="all-btns">
+      <div class="seperate">
+        <div>
+          <h1>Opacity Button</h1>
+          <a href="#" class="btn-opacity">Opacity</a>
+        </div>
+        <div>
+          <h1>Shadow Button</h1>
+          <a href="#" class="btn-shadow">Shadow</a>
+        </div>
+        <div>
+          <h1>swing Button</h1>
+          <button>Swing</button>
+        </div>
+        <div>
+          <h1>Ripple Button</h1>
+          <a href="#" class="btn-ripple">Ripple</a>
+        </div>
+        <div>
+          <h1>Glow Effect Button</h1>
+          <a href="#" class="glow-on-hover">Glow</a>
+        </div>
+        <div>
+          <h1>Rounded Button</h1>
+          <a href="#" class="btn-rounded">Rounded</a>
+        </div>
+        <div>
+          <h1>Blubs Button</h1>
+          <a href="#" class="blob-btn buttons">
+            Blob Button
+            <span class="blob-btn__inner">
+              <span class="blob-btn__blobs">
+                <span class="blob-btn__blob"></span>
+                <span class="blob-btn__blob"></span>
+                <span class="blob-btn__blob"></span>
+                <span class="blob-btn__blob"></span>
+              </span>
+            </span>
+          </a>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur
+                  in="SourceGraphic"
+                  result="blur"
+                  stdDeviation="10"
+                ></feGaussianBlur>
+                <feColorMatrix
+                  in="blur"
+                  mode="matrix"
+                  values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+                  result="goo"
+                ></feColorMatrix>
+                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+        <div>
+          <h1>Rounded Pulse Button</h1>
+          <a href="#" class="btn-pulse btn-white btn-animate">click me</a>
+        </div>
+        <div class="wrapper">
+          <h1>Button Change</h1>
+          <div class="link_wrapper">
+            <a href="#" class="btn-change">Hover Me!</a>
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 268.832 268.832"
+              >
+                <path
+                  d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1>Button flip</h1>
+          <a href="#" class="btn-flip" data-back="Back" data-front="Front"></a>
+        </div>
+        <div class="wrapper2">
+          <h1>Swipe Right Button</h1>
+          <a href="#" class="btn-swipe"><span>Hover Me!</span></a>
+        </div>
+        <div>
+          <section class="buttons-h">
+            <h1>Button Hover Effects</h1>
+            <a href="#" class="btn-h btn-1">
+              <svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+              </svg>
+              Hover
+            </a>
+            <!--End of Button 1 -->
+
+            <a href="#" class="btn-h btn-2">Hover</a>
+            <!--End of Button 2 -->
+
+            <a href="#" class="btn-h btn-3">Hover</a>
+            <!--End of Button 3 -->
+
+            <a href="#" class="btn-h btn-4"><span>Hover</span></a>
+            <!--End of Button 4 -->
+
+            <a href="#" class="btn-h btn-5">Hover</a>
+            <!--End of Button 5 -->
+          </section>
+        </div>
+
+        <div>
+          <a class="btn-sub" href="#">Submit</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

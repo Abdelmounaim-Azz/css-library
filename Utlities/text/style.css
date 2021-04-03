@@ -1,0 +1,53 @@
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: #93cb52; /*https://www.color-hex.com/*/
+}
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: #ffbc00;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+/* first letter in a paragraph */
+p:first-of-type:first-letter {
+  font-size: 4em;
+  font-weight: bold;
+}
+/* Quotation */
+blockquote p:before {
+  content: “\201c”;
+}
+blockquote p:after {
+  content: “\201d”;
+}
+/* list style imlage */
+list-style: disc inside url(“../images/check.png”);
